@@ -52,7 +52,6 @@ nav a {
     border-radius: 10px;
 }
 
-/* CATEGORÍAS */
 .categorias {
     display: flex;
     justify-content: space-around;
@@ -87,16 +86,16 @@ nav a {
 }
 
 .producto img {
-    width: 220px;   /* el tamaño que quieras */
-    height: 280px;  /* mismo alto para todas */
-    object-fit: cover; /* recorta sin deformar */
-    border-radius: 10px; /* opcional, queda bonito */
+    width: 220px;   
+    height: 280px;  
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 
 .producto {
     display: flex;
-    justify-content: center; /* centra horizontal */
-    align-items: center;     /* centra vertical */
+    justify-content: center; 
+    align-items: center;     
 }
 -------------------------------------------------
 
