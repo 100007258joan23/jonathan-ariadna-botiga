@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+/* HEADER */
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* BANNER */
+.banner {
+    background: url('../fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+/* CATEGORÍAS */
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: white;
+}
+
+.categoria {
+    background: #ddd;
+    padding: 20px;
+    width: 18%;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* PRODUCTOS */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.producto {
+    width: 250px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.producto img {
+    width: 220px;   /* el tamaño que quieras */
+    height: 280px;  /* mismo alto para todas */
+    object-fit: cover; /* recorta sin deformar */
+    border-radius: 10px; /* opcional, queda bonito */
+}
+
+.producto {
+    display: flex;
+    justify-content: center; /* centra horizontal */
+    align-items: center;     /* centra vertical */
+}
+-------------------------------------------------
+
+body {
+    background: #0d0d0d;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+    padding: 40px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: #1a1a1a;
+    padding: 125px;
+    border-radius: 0;
+    max-width: 10000px;
+    margin: auto;
+    
+}
+
+.lado-izquierdo img {
+    width: 350px;
+    border-radius: 15px;
+}
+
+.lado-derecho {
+    flex: 1;
+}
+
+.titulo {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff4747;
+}
+
+.descripcion {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.btn-comprar {
+    background: #ff4747;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-comprar:hover {
+    background: #ff2f2f;
+}
+    
+.idioma {
+    color : #f42626;
+}
